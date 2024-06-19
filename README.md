@@ -3,7 +3,14 @@
 ## ⚫ App Screens ⚫
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Food-Mania/main/readme_images/image_0.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_1.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_2.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_3.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_4.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_5.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_6.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_7.png" style="width: 200px; margin: 10px;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Dhakad-Project/main/readme_images/image_8.png" style="width: 200px; margin: 10px;">
 </div>
 
 ## 🙋 Support
