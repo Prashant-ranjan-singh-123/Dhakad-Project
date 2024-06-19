@@ -24,6 +24,7 @@ class OnboardingOrMainScreen extends StatelessWidget {
               if (isFirstRunVar) {
                 return const OnBoardingScreen();
               } else {
+                // return const OnBoardingScreen();
                 return const BottomNavBar();
               }
             }
