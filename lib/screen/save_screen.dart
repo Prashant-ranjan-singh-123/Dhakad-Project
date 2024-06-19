@@ -81,35 +81,40 @@ class _SavedPageState extends State<SavedPage> {
                   ),
                   child: Image.network(
                     image,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),
               Container(
                 width: double.infinity,
                 color: Colors.white10,
-                child: Column(
-                  children: [
-                    const SizedBox(height: 10),
-                    Text(
-                      '$fName $lName',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w900,
-                        fontSize: 20,
-                        fontFamily: 'Poppins',
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 5),
+                  child: Column(
+                    children: [
+                      const SizedBox(height: 10),
+                      AutoSizeText(
+                        maxLines: 1,
+                        '$fName $lName',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w900,
+                          fontSize: 20,
+                          fontFamily: 'Poppins',
+                        ),
                       ),
-                    ),
-                    Text(
-                      '$eMail',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w900,
-                        fontSize: 12,
-                        color: Color.fromRGBO(108, 106, 106, 1),
-                        fontFamily: 'Poppins',
+                      AutoSizeText(
+                        maxLines: 1,
+                        '$eMail',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w900,
+                          fontSize: 12,
+                          color: Color.fromRGBO(108, 106, 106, 1),
+                          fontFamily: 'Poppins',
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 10),
-                  ],
+                      const SizedBox(height: 10),
+                    ],
+                  ),
                 ),
               )
             ],
