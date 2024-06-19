@@ -1,16 +1,12 @@
-# dhakad_tech
+# 🖩 Dhakad Tech Task🖩
 
-A new Flutter project.
+## ⚫ App Screens ⚫
 
-## Getting Started
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Food-Mania/main/readme_images/image_0.png" style="width: 200px; margin: 10px;">
+</div>
 
-This project is a starting point for a Flutter application.
+## 🙋 Support
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Email:** [prashant.singh.12312345@gmail.com](https://mail.google.com/mail/u/?authuser=prashant.singh.12312345@gmail.com)
+- **LinkedIn:** [prashant-ranjan-singh-b9b6b9217](https://www.linkedin.com/in/prashant-ranjan-singh-b9b6b9217/)
