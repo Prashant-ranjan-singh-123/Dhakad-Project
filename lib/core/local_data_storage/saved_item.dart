@@ -29,12 +29,12 @@ class LocalData {
   }
 
   // Method to update all lists from SharedPreferences
-  static Future<void> updateFromSharedPreferences() async {
+  static Future<void> updateFromSharedPreferences() async{
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Load likedList from SharedPreferences
     List<String>? likedListStringList =
-        prefs.getStringList(MySharedPrefVariable.likedListKey);
+        await prefs.getStringList(MySharedPrefVariable.likedListKey);
     if (likedListStringList != null) {
       LocalData.likedList.clear();
       LocalData.likedList
@@ -43,7 +43,7 @@ class LocalData {
 
     // Load data from SharedPreferences
     List<String>? dataStringList =
-        prefs.getStringList(MySharedPrefVariable.dataKey);
+        await prefs.getStringList(MySharedPrefVariable.dataKey);
     if (dataStringList != null) {
       LocalData.data.clear();
       LocalData.data.addAll(dataStringList.map((item) => item as dynamic));
@@ -51,10 +51,17 @@ class LocalData {
 
     // Load like from SharedPreferences
     List<String>? likeStringList =
-        prefs.getStringList(MySharedPrefVariable.likeBoolKey);
+        await prefs.getStringList(MySharedPrefVariable.likeBoolKey);
     if (likeStringList != null) {
       LocalData.like.clear();
       LocalData.like.addAll(likeStringList.map((item) => item == 'true'));
     }
+    print(likedListStringList);
+    print('\n\n');
+    print(dataStringList);
+    print('\n\n');
+    print(likeStringList);
+    print('\n\n');
+
   }
 }

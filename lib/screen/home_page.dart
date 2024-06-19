@@ -1,7 +1,6 @@
 import 'package:dhakad_tech/core/api/ApiWork.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:get/get.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../core/local_data_storage/saved_item.dart';
@@ -38,7 +37,7 @@ class _HomePageState extends State<HomePage> {
         throw Exception('Failed to load data: $e');
       }
     }
-
+    // LocalData.updateFromSharedPreferences();
   }
 
   @override

@@ -58,7 +58,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     if(index==0){
       return const Text('Home', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontFamily: 'Poppins', fontSize: 20),);
     }else{
-      return const Text('Profile', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontFamily: 'Poppins', fontSize: 20),);
+      return const Text('Favourite', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontFamily: 'Poppins', fontSize: 20),);
     }
   }
 
